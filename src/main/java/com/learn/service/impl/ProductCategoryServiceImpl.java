@@ -2,7 +2,7 @@ package com.learn.service.impl;
 
 import com.learn.dataobject.ProductCategory;
 import com.learn.respository.ProductCategoryRepository;
-import com.learn.service.ProductCategoryServcie;
+import com.learn.service.ProductCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +15,7 @@ import java.util.List;
  * @version 1.0 2018-06-10 by aguai
  */
 @Service
-public class ProductCategoryServiceImpl implements ProductCategoryServcie {
+public class ProductCategoryServiceImpl implements ProductCategoryService{
 
     @Autowired
     ProductCategoryRepository categoryRepository;

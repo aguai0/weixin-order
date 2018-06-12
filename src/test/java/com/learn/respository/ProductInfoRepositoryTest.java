@@ -25,11 +25,11 @@ public class ProductInfoRepositoryTest {
     @Test
     public void saveProductInfo(){
         ProductInfo productInfo = new ProductInfo();
-        productInfo.setProductId("1");
-        productInfo.setProductName("拉条");
-        productInfo.setProductPrice(new BigDecimal(5.12));
+        productInfo.setProductId("3");
+        productInfo.setProductName("串串香");
+        productInfo.setProductPrice(new BigDecimal(2));
         productInfo.setProductStock(100);
-        productInfo.setProductDescription("狠辣");
+        productInfo.setProductDescription("一串串");
         productInfo.setProductIcon("http://xxx.jpg");
         productInfo.setProductStatus(0);
         productInfo.setCategoryType(2);

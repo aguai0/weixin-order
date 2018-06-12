@@ -31,8 +31,8 @@ public class ProductCategoryRepositoryTest {
     @Test
     public void insertTest(){
         ProductCategory productCategory = new ProductCategory();
-        productCategory.setCategoryName("类目2");
-        productCategory.setCategoryType(2);
+        productCategory.setCategoryName("类目3");
+        productCategory.setCategoryType(3);
         repository.save(productCategory);
     }
 

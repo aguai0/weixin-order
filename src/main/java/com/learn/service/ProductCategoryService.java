@@ -10,7 +10,7 @@ import java.util.List;
  *
  * @version 1.0 2018-06-10 by aguai
  */
-public interface ProductCategoryServcie {
+public interface ProductCategoryService {
 
     public ProductCategory findByOne(Integer id);
 
